@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{5C74784E-808E-45B6-8D0E-DD83DB822D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAY3_ERRHNDL", "DAY3_ERRHNDL\DAY3_ERRHNDL.csproj", "{00BE8167-2BE8-41B7-9289-7280603BE114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAY4_ABSTRACTION", "DAY4_ABSTRACTION\DAY4_ABSTRACTION.csproj", "{FB468B8D-C974-49DF-B1F3-1F6CADD83CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHelpers", "ConsoleHelpers\ConsoleHelpers.csproj", "{5B5C4117-01F3-4115-B4BC-6D0B50F17481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack", "BlackJack\BlackJack.csproj", "{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB SAMPLES", "WEB SAMPLES", "{A5E36E89-5510-4967-AE4C-70728B279227}"
+	ProjectSection(SolutionItems) = preProject
+		HTML2.html = HTML2.html
+		IndexHTML.html = IndexHTML.html
+		JSSample.html = JSSample.html
+		Script.js = Script.js
+		StyleCSS.css = StyleCSS.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C74784E-808E-45B6-8D0E-DD83DB822D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C74784E-808E-45B6-8D0E-DD83DB822D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C74784E-808E-45B6-8D0E-DD83DB822D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C74784E-808E-45B6-8D0E-DD83DB822D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00BE8167-2BE8-41B7-9289-7280603BE114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BE8167-2BE8-41B7-9289-7280603BE114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BE8167-2BE8-41B7-9289-7280603BE114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BE8167-2BE8-41B7-9289-7280603BE114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB468B8D-C974-49DF-B1F3-1F6CADD83CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB468B8D-C974-49DF-B1F3-1F6CADD83CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB468B8D-C974-49DF-B1F3-1F6CADD83CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB468B8D-C974-49DF-B1F3-1F6CADD83CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5C4117-01F3-4115-B4BC-6D0B50F17481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5C4117-01F3-4115-B4BC-6D0B50F17481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5C4117-01F3-4115-B4BC-6D0B50F17481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5C4117-01F3-4115-B4BC-6D0B50F17481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {702BC518-F9C1-4F7F-8F96-2B7FDB526B7F}
+	EndGlobalSection
+EndGlobal

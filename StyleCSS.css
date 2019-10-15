@@ -1,0 +1,48 @@
+﻿body
+{
+    background-color: darkred;
+    color: white;
+    margin: 60px;
+}
+
+span, div
+{
+    color:aquamarine;
+}
+
+#login {
+    background-color:black;
+}
+
+span.blue{
+    background-color:blue;
+}
+.bold{
+    text-decoration: line-through;
+    font-weight:bolder;
+    background-color:lightgoldenrodyellow;
+}
+a{
+    color:moccasin;
+}
+a:visited{
+    color:indianred;
+}
+
+table td, table th{
+    border:black;
+
+}
+
+div.left{
+    float: left;
+    background-color:lightpink;
+    width: 60%;
+
+}
+div.right {
+    float: right;
+    background-color: aliceblue;
+
+}
+
