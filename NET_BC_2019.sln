@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB SAMPLES", "WEB SAMPLES"
 		StyleCSS.css = StyleCSS.css
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicSample", "LogicSample\LogicSample.csproj", "{DD056DF8-D2C6-4C56-BC6E-8BB2553DA868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicSample.Tests", "LogicSample.Tests\LogicSample.Tests.csproj", "{D36DCD9D-010E-490F-88D7-8018DA942CE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,14 @@ Global
 		{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A7E6EC-80A4-4CDB-BF92-95FED5B324E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD056DF8-D2C6-4C56-BC6E-8BB2553DA868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD056DF8-D2C6-4C56-BC6E-8BB2553DA868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD056DF8-D2C6-4C56-BC6E-8BB2553DA868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD056DF8-D2C6-4C56-BC6E-8BB2553DA868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36DCD9D-010E-490F-88D7-8018DA942CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36DCD9D-010E-490F-88D7-8018DA942CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36DCD9D-010E-490F-88D7-8018DA942CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36DCD9D-010E-490F-88D7-8018DA942CE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
