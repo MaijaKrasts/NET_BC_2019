@@ -1,0 +1,20 @@
+﻿@model CategoryModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <row>
+        @foreach (var category in Model.Categories.Where(c => !c.CategoryId.HasValue))
+        {
+            <div class="list-group col-md-3">
+                <a class="list-group-item active"> @category.Title</a>
+                @foreach (var subcat in Model.Categories.Where(c => c.CategoryId == category.Id))
+                {
+                    <a class="list-group-item" asp-controller="Ad" asp-action="Category" asp-route-id="@subcat.Id"><span class="badge badge-secondary">@subcat.AdCount</span> @subcat.Title</a>
+                }
+
+            </div>
+        }
+    </row>
+</div>

@@ -1,0 +1,27 @@
+﻿@model  List<Webshop.Logic.Item>
+@{
+    ViewData["Title"] = "Basket";
+}
+
+
+    <div class="container">
+        <h2>Basket</h2>
+        <table class="table table-hover">
+            <tr>
+                <th> Title </th>
+                <th> Price </th>
+                <th> Delete </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Price</td>
+                    <td><a asp-constroller="Item" asp-action="Delete" asp-route-id="@item.Id">Remove</a></td>
+                </tr>
+            }
+
+        </table>
+    </div>
+

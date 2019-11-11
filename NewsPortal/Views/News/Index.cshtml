@@ -1,0 +1,12 @@
+﻿@model  NewsPortalLogic.News
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<img src="@Model.Photo" class="col-md-12"> 
+<h3 >@Model.Title</h3>
+<h5 style="color:darkgrey">@Model.Author</h5> 
+<h5 style="color:darkgrey">@Model.CreatedOn.ToShortDateString()</h5>
+
+<p>@Model.Text</p>

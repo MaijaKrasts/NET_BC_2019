@@ -1,0 +1,28 @@
+﻿@model NewsModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="navbar-collapse collapse">
+
+    <ul class="nav navbar-nav">
+        @foreach (var cat in Model.Categories)
+        {
+            <li><a asp-route-id="@cat.Id" asp-controller="Category" asp-action="Index">@cat.Title</a></li>
+        }
+    </ul>
+</div>
+    @foreach (var news in Model.News)
+    {
+        <div class="col-md-4">
+            <div class="thumbnail" style="height:350px">
+                <img src="@news.Photo">
+                <div class="caption">
+                    <h3><a asp-route-id="@news.Id" asp-controller="News" asp-action="Index">@news.Title</a></h3>
+                </div>
+            </div>
+        </div>
+    }
+
+
+

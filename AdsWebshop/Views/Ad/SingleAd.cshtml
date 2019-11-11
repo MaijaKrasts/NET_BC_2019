@@ -1,0 +1,60 @@
+﻿@model  CategoryModel
+@*AdsWebshop.Logic.Ad*@
+@{
+    ViewData["Title"] = "SingleAd";
+}
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a asp-controller="Category" asp-action="Index">Sludinājumi</a></li>
+            <li><a a asp-controller="Ad" asp-action="Category" asp-route-id="@Model.Ad.CategoryId">Kategorija</a></li>
+            <li class="active">@Model.Ad.Title</li>
+        </ol>
+        @if (Context.Session.GetUserEmail() != null)
+        {
+            <a asp-controller="Ad" asp-action="Create">Pievienot jaunu sludinājumu</a>
+        }
+        <h2>@Model.Ad.Title</h2>
+        <row>
+            <div class="col-md-3">
+                <row>
+                    <img src="@Model.Ad.Photo" class="col-md-12" />
+                </row>
+                <row>
+                    <img src="@Model.Ad.Photo" class="col-md-4" />
+                    <img src="@Model.Ad.Photo" class="col-md-4" />
+                    <img src="@Model.Ad.Photo" class="col-md-4" />
+                </row>
+
+            </div>
+            <div class="col-md-9">
+                <div class="col-md-3">
+                    <h5>Cena: </h5>
+                    <h5>Atrašanās vieta: </h5>
+                    <h5>Pievienošanas laiks: </h5>
+                    @if (Context.Session.GetUserEmail() != null)
+                    {
+                        <h5>Tālrunis: </h5>
+                        <h5>E-pasts: </h5>
+                    }
+                    <h5>Apraksts: </h5>
+                </div>
+                <div class="col-md-6">
+                    <p> @Model.Ad.Price </p>
+                    <p>  @Model.Ad.Location </p>
+                    <p> @Model.Ad.CreatedOn  </p>
+                    @if (Context.Session.GetUserEmail() != null)
+                    {
+                        <p>+ @Model.Ad.Telephone  </p>
+                        <p> @Model.Ad.Email </p>
+                    }
+                    <p>
+                        @Model.Ad.Description
+                    </p>
+                </div>
+            </div>
+        </row>
+
+
+    </div>
+
+

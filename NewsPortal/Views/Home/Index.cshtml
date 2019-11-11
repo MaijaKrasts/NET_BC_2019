@@ -1,0 +1,21 @@
+﻿@model List<NewsPortalLogic.News>
+@{
+    ViewData["Title"] = "Home Page";
+}
+    <div class="navbar-collapse collapse">
+
+        <ul class="nav navbar-nav">
+                <li><a>   </a></li>
+        </ul>
+    </div>
+            @foreach (var news in Model)
+            {
+                <div class="col-md-4 inline">
+                    <div class="thumbnail" style="height:350px">
+                        <img src="@news.Photo">
+                        <div class="caption">
+                            <h3><a asp-route-id="@news.Id" asp-controller="News" asp-action="Index">@news.Title</a></h3>
+                        </div>
+                    </div>
+                </div>
+            }
