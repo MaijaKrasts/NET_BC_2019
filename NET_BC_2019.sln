@@ -47,6 +47,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		SQLQueryTest.sql = SQLQueryTest.sql
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApplication", "MovieApplication\MovieApplication.csproj", "{5ED86AC7-08D4-4DE9-869A-FB45BC4A0D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterLogic", "TwitterLogic\TwitterLogic.csproj", "{F225E903-ECCB-4194-A544-693ED6AFA21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter", "Twitter\Twitter.csproj", "{A3663695-A64A-44EE-9FFB-D8339B676403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +119,18 @@ Global
 		{F6F1C801-5699-4C5C-AD6A-C13BA39D3C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F1C801-5699-4C5C-AD6A-C13BA39D3C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F1C801-5699-4C5C-AD6A-C13BA39D3C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED86AC7-08D4-4DE9-869A-FB45BC4A0D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED86AC7-08D4-4DE9-869A-FB45BC4A0D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED86AC7-08D4-4DE9-869A-FB45BC4A0D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED86AC7-08D4-4DE9-869A-FB45BC4A0D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F225E903-ECCB-4194-A544-693ED6AFA21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F225E903-ECCB-4194-A544-693ED6AFA21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F225E903-ECCB-4194-A544-693ED6AFA21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F225E903-ECCB-4194-A544-693ED6AFA21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3663695-A64A-44EE-9FFB-D8339B676403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3663695-A64A-44EE-9FFB-D8339B676403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3663695-A64A-44EE-9FFB-D8339B676403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3663695-A64A-44EE-9FFB-D8339B676403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,24 @@
+﻿@model TweetModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1> tweet page </h1>
+
+<p>tweets:</p>
+@*@foreach (var tweet in Model)
+{
+    <p> tweet.TweetText </p>
+}*@
+
+<div class="form-group">
+    <label class="col-sm-2 control-label">Tweet here: </label>
+    <div class="col-sm-10">
+        <textarea asp-for="Text" class="form-control"></textarea>
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Saglabāt</button>
+    </div>
+</div>
